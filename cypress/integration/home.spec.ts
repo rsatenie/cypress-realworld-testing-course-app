@@ -52,7 +52,7 @@ describe("home page", () => {
     it("the features on the homepage are correct", () => {
       cy.get("dt").eq(0)
         .contains("4 Courses")
-        // .contains("4 Courses") //! example error-message
+        // .contains("4 Courk8ses") //! example error-message
       cy.get("dt").eq(0).contains("4 Courses")
       cy.get("dt").eq(1).contains("25+ Lessons")
       cy.get("dt").eq(2).contains("Free and Open Source")
